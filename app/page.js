@@ -34,7 +34,7 @@ export default function Login() {
               <p>Welcome to the To-Do List Application</p>
             </div>
             <div className="flex justify-center mt-4">
-              <Link href="/to-do-list">Click here to go to the To-Do List</Link>
+              <Link href="/to-do">Click here to go to the To-Do List</Link>
             </div>
             <div className="flex justify-center mt-4">
               <button onClick={handleLogout} className="bg-blue-500 rounded px-2 py-1 text-2xl">Logout</button>
